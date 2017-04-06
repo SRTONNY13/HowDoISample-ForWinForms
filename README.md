@@ -20,9 +20,9 @@ Working...
 
 ### Getting Help
 
-[Map Suite WebForms Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_web_for_webforms)
+[Map Suite WebForms Wiki Resources](http://wiki.thinkgeo.com/wiki/map_suite_desktop_for_winforms)
 
-[Map Suite WebForms Product Description](https://thinkgeo.com/ui-controls#web-platforms)
+[Map Suite WebForms Product Description](https://thinkgeo.com/ui-controls#desktop-platforms)
 
 [ThinkGeo Community Site](http://community.thinkgeo.com/)
 
