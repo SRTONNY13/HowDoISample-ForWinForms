@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Forms;
+using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
 using ThinkGeo.MapSuite.Layers;
 using ThinkGeo.MapSuite.Shapes;
@@ -8,7 +9,7 @@ using ThinkGeo.MapSuite.Styles;
 using ThinkGeo.MapSuite.WinForms;
 using WorldMapKitProjection = ThinkGeo.MapSuite.WinForms.WorldMapKitProjection;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public partial class DetermineWhereUserClickInWorldCoordinate : UserControl
     {

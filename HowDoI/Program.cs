@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     internal static class Program
     {

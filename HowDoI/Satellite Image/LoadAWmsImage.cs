@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows.Forms;
+using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
 using ThinkGeo.MapSuite.Layers;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.WinForms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public class LoadAWmsImage : UserControl
     {

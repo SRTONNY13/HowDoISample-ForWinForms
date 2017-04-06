@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ThinkGeo.MapSuite.DebugSamples")]
-[assembly: AssemblyDescription("ThinkGeo.MapSuite.DebugSamples")]
+[assembly: AssemblyTitle("CSHowDoISamples")]
+[assembly: AssemblyDescription("CSHowDoISamples")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ThinkGeo")]
-[assembly: AssemblyProduct("ThinkGeo.MapSuite.DebugSamples")]
+[assembly: AssemblyProduct("CSHowDoISamples")]
 [assembly: AssemblyCopyright("Copyright © ThinkGeo 2015")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

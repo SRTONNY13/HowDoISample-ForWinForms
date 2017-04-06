@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Windows.Forms;
+using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
 using ThinkGeo.MapSuite.Layers;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.Styles;
 using ThinkGeo.MapSuite.WinForms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public class LoadAnOracleFeatureLayer : UserControl
     {
@@ -74,7 +75,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // pictureBox1
             //
             this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.SpecialDataBaseResult;
+            this.pictureBox1.Image = global::CSHowDoISamples.Properties.Resources.SpecialDataBaseResult;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(740, 528);

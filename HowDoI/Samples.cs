@@ -5,7 +5,7 @@ using System.IO;
 using System.Management;
 using System.Windows.Forms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public partial class Samples : Form
     {

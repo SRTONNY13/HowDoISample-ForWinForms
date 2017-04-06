@@ -1,4 +1,4 @@
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     partial class Samples
     {
@@ -404,7 +404,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // 
             this.pbxBanner.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pbxBanner.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pbxBanner.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.MS50SampleAppsMastheadAdSpace;
+            this.pbxBanner.Image = global::CSHowDoISamples.Properties.Resources.MS50SampleAppsMastheadAdSpace;
             this.pbxBanner.ImageLocation = "";
             this.pbxBanner.Location = new System.Drawing.Point(0, 0);
             this.pbxBanner.Name = "pbxBanner";
@@ -964,7 +964,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // 
             // pbxContactUs
             // 
-            this.pbxContactUs.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.LinkButtonIconContactUs;
+            this.pbxContactUs.Image = global::CSHowDoISamples.Properties.Resources.LinkButtonIconContactUs;
             this.pbxContactUs.Location = new System.Drawing.Point(331, 36);
             this.pbxContactUs.Name = "pbxContactUs";
             this.pbxContactUs.Size = new System.Drawing.Size(26, 26);
@@ -973,7 +973,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // 
             // pbxFAQ
             // 
-            this.pbxFAQ.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.LinkButtonIconFAQ;
+            this.pbxFAQ.Image = global::CSHowDoISamples.Properties.Resources.LinkButtonIconFAQ;
             this.pbxFAQ.Location = new System.Drawing.Point(191, 36);
             this.pbxFAQ.Name = "pbxFAQ";
             this.pbxFAQ.Size = new System.Drawing.Size(26, 26);
@@ -982,7 +982,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // 
             // pbxTestimonials
             // 
-            this.pbxTestimonials.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.LinkButtonIconTestimonials;
+            this.pbxTestimonials.Image = global::CSHowDoISamples.Properties.Resources.LinkButtonIconTestimonials;
             this.pbxTestimonials.Location = new System.Drawing.Point(331, 4);
             this.pbxTestimonials.Name = "pbxTestimonials";
             this.pbxTestimonials.Size = new System.Drawing.Size(26, 26);
@@ -991,7 +991,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // 
             // pbxOnlineStore
             // 
-            this.pbxOnlineStore.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.LinkButtonIconOnlineStore;
+            this.pbxOnlineStore.Image = global::CSHowDoISamples.Properties.Resources.LinkButtonIconOnlineStore;
             this.pbxOnlineStore.Location = new System.Drawing.Point(191, 4);
             this.pbxOnlineStore.Name = "pbxOnlineStore";
             this.pbxOnlineStore.Size = new System.Drawing.Size(26, 26);
@@ -1000,7 +1000,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // 
             // pbxDiscussionForums
             // 
-            this.pbxDiscussionForums.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.LinkButtonIconDiscussionForums;
+            this.pbxDiscussionForums.Image = global::CSHowDoISamples.Properties.Resources.LinkButtonIconDiscussionForums;
             this.pbxDiscussionForums.Location = new System.Drawing.Point(10, 36);
             this.pbxDiscussionForums.Name = "pbxDiscussionForums";
             this.pbxDiscussionForums.Size = new System.Drawing.Size(26, 26);
@@ -1009,7 +1009,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // 
             // pbxProductInformation
             // 
-            this.pbxProductInformation.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.LinkButtonIconProductInfo;
+            this.pbxProductInformation.Image = global::CSHowDoISamples.Properties.Resources.LinkButtonIconProductInfo;
             this.pbxProductInformation.Location = new System.Drawing.Point(10, 4);
             this.pbxProductInformation.Name = "pbxProductInformation";
             this.pbxProductInformation.Size = new System.Drawing.Size(26, 26);
@@ -1097,7 +1097,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // pbxLowerRightLogo
             // 
             this.pbxLowerRightLogo.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pbxLowerRightLogo.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.ThinkGeoLogo;
+            this.pbxLowerRightLogo.Image = global::CSHowDoISamples.Properties.Resources.ThinkGeoLogo;
             this.pbxLowerRightLogo.Location = new System.Drawing.Point(636, 19);
             this.pbxLowerRightLogo.Name = "pbxLowerRightLogo";
             this.pbxLowerRightLogo.Size = new System.Drawing.Size(117, 37);

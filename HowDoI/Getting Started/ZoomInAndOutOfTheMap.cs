@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
+using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.WinForms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public class ZoomInAndOutOfTheMap : UserControl
     {
@@ -90,7 +91,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // btnZoomOut
             //
             this.btnZoomOut.BackColor = System.Drawing.SystemColors.Control;
-            this.btnZoomOut.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.ZoomOut;
+            this.btnZoomOut.Image = global::CSHowDoISamples.Properties.Resources.ZoomOut;
             this.btnZoomOut.Location = new System.Drawing.Point(43, 20);
             this.btnZoomOut.Name = "btnZoomOut";
             this.btnZoomOut.Size = new System.Drawing.Size(30, 30);
@@ -101,7 +102,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             // btnZoomIn
             //
             this.btnZoomIn.BackColor = System.Drawing.SystemColors.Control;
-            this.btnZoomIn.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.ZoomIn;
+            this.btnZoomIn.Image = global::CSHowDoISamples.Properties.Resources.ZoomIn;
             this.btnZoomIn.Location = new System.Drawing.Point(7, 20);
             this.btnZoomIn.Name = "btnZoomIn";
             this.btnZoomIn.Size = new System.Drawing.Size(30, 30);

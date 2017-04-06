@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
+using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.WinForms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public class DisplayShapeMap : UserControl
     {

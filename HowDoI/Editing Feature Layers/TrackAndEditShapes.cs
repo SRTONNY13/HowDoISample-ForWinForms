@@ -1,10 +1,11 @@
 ﻿using System;
 using System.Windows.Forms;
+using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.WinForms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public class TrackAndEditShapes : UserControl
     {
@@ -167,7 +168,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             this.groupBox1.Text = "Functions";
 
             this.btnTrackNormal.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackNormal.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Normal;
+            this.btnTrackNormal.Image = global::CSHowDoISamples.Properties.Resources.Normal;
             this.btnTrackNormal.Location = new System.Drawing.Point(7, 20);
             this.btnTrackNormal.Name = "btnTrackNormal";
             this.btnTrackNormal.Size = new System.Drawing.Size(30, 30);
@@ -176,7 +177,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackNormal.Click += new EventHandler(button_Click);
 
             this.btnTrackPoint.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackPoint.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Point;
+            this.btnTrackPoint.Image = global::CSHowDoISamples.Properties.Resources.Point;
             this.btnTrackPoint.Location = new System.Drawing.Point(43, 20);
             this.btnTrackPoint.Name = "btnTrackPoint";
             this.btnTrackPoint.Size = new System.Drawing.Size(30, 30);
@@ -185,7 +186,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackPoint.Click += new EventHandler(button_Click);
 
             this.btnTrackLine.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackLine.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Line;
+            this.btnTrackLine.Image = global::CSHowDoISamples.Properties.Resources.Line;
             this.btnTrackLine.Location = new System.Drawing.Point(79, 20);
             this.btnTrackLine.Name = "btnTrackLine";
             this.btnTrackLine.Size = new System.Drawing.Size(30, 30);
@@ -194,7 +195,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackLine.Click += new EventHandler(button_Click);
 
             this.btnTrackRectangle.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackRectangle.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Rectangle;
+            this.btnTrackRectangle.Image = global::CSHowDoISamples.Properties.Resources.Rectangle;
             this.btnTrackRectangle.Location = new System.Drawing.Point(115, 20);
             this.btnTrackRectangle.Name = "btnTrackRectangle";
             this.btnTrackRectangle.Size = new System.Drawing.Size(30, 30);
@@ -203,7 +204,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackRectangle.Click += new EventHandler(button_Click);
 
             this.btnTrackSquare.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackSquare.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Square;
+            this.btnTrackSquare.Image = global::CSHowDoISamples.Properties.Resources.Square;
             this.btnTrackSquare.Location = new System.Drawing.Point(151, 20);
             this.btnTrackSquare.Name = "btnTrackSquare";
             this.btnTrackSquare.Size = new System.Drawing.Size(30, 30);
@@ -212,7 +213,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackSquare.Click += new EventHandler(button_Click);
 
             this.btnTrackPolygon.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackPolygon.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Polygon;
+            this.btnTrackPolygon.Image = global::CSHowDoISamples.Properties.Resources.Polygon;
             this.btnTrackPolygon.Location = new System.Drawing.Point(187, 20);
             this.btnTrackPolygon.Name = "btnTrackPolygon";
             this.btnTrackPolygon.Size = new System.Drawing.Size(30, 30);
@@ -221,7 +222,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackPolygon.Click += new EventHandler(button_Click);
 
             this.btnTrackCircle.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackCircle.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Circle;
+            this.btnTrackCircle.Image = global::CSHowDoISamples.Properties.Resources.Circle;
             this.btnTrackCircle.Location = new System.Drawing.Point(223, 20);
             this.btnTrackCircle.Name = "btnTrackCircle";
             this.btnTrackCircle.Size = new System.Drawing.Size(30, 30);
@@ -230,7 +231,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackCircle.Click += new EventHandler(button_Click);
 
             this.btnTrackEllipse.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackEllipse.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Ellipse;
+            this.btnTrackEllipse.Image = global::CSHowDoISamples.Properties.Resources.Ellipse;
             this.btnTrackEllipse.Location = new System.Drawing.Point(259, 20);
             this.btnTrackEllipse.Name = "btnTrackEllipse";
             this.btnTrackEllipse.Size = new System.Drawing.Size(30, 30);
@@ -239,7 +240,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackEllipse.Click += new EventHandler(button_Click);
 
             this.btnTrackEdit.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackEdit.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Edit;
+            this.btnTrackEdit.Image = global::CSHowDoISamples.Properties.Resources.Edit;
             this.btnTrackEdit.Location = new System.Drawing.Point(295, 20);
             this.btnTrackEdit.Name = "btnTrackEdit";
             this.btnTrackEdit.Size = new System.Drawing.Size(30, 30);
@@ -248,7 +249,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             btnTrackEdit.Click += new EventHandler(button_Click);
 
             this.btnTrackDelete.BackColor = System.Drawing.SystemColors.Control;
-            this.btnTrackDelete.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.Delete;
+            this.btnTrackDelete.Image = global::CSHowDoISamples.Properties.Resources.Delete;
             this.btnTrackDelete.Location = new System.Drawing.Point(331, 20);
             this.btnTrackDelete.Name = "btnTrackDelete";
             this.btnTrackDelete.Size = new System.Drawing.Size(30, 30);

@@ -8,8 +8,8 @@
     <ProjectGuid>{7E575B3C-75B5-4A7E-83C1-FFAE169F7C42}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ThinkGeo.MapSuite.DebugSamples</RootNamespace>
-    <AssemblyName>ThinkGeo.MapSuite.DebugSamples</AssemblyName>
+    <RootNamespace>CSHowDoISamples</RootNamespace>
+    <AssemblyName>HowDoI</AssemblyName>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>

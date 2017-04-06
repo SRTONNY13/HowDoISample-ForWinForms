@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Globalization;
 using System.Windows.Forms;
+using ThinkGeo.MapSuite;
 using ThinkGeo.MapSuite.Drawing;
 using ThinkGeo.MapSuite.Shapes;
 using ThinkGeo.MapSuite.WinForms;
 
-namespace ThinkGeo.MapSuite.DebugSamples
+namespace CSHowDoISamples
 {
     public class PanAroundTheMap : UserControl
     {
@@ -190,7 +191,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             this.btnPanDown.FlatAppearance.BorderSize = 0;
             this.btnPanDown.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPanDown.ForeColor = System.Drawing.Color.Transparent;
-            this.btnPanDown.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.South;
+            this.btnPanDown.Image = global::CSHowDoISamples.Properties.Resources.South;
             this.btnPanDown.Location = new System.Drawing.Point(41, 77);
             this.btnPanDown.Name = "btnPanDown";
             this.btnPanDown.Size = new System.Drawing.Size(22, 22);
@@ -202,7 +203,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             //
             this.btnPanUp.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPanUp.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnPanUp.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.North;
+            this.btnPanUp.Image = global::CSHowDoISamples.Properties.Resources.North;
             this.btnPanUp.Location = new System.Drawing.Point(41, 19);
             this.btnPanUp.Name = "btnPanUp";
             this.btnPanUp.Size = new System.Drawing.Size(22, 22);
@@ -215,7 +216,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             this.btnPanRight.FlatAppearance.BorderSize = 0;
             this.btnPanRight.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPanRight.ForeColor = System.Drawing.Color.Transparent;
-            this.btnPanRight.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.East;
+            this.btnPanRight.Image = global::CSHowDoISamples.Properties.Resources.East;
             this.btnPanRight.Location = new System.Drawing.Point(71, 48);
             this.btnPanRight.Name = "btnPanRight";
             this.btnPanRight.Size = new System.Drawing.Size(22, 22);
@@ -227,7 +228,7 @@ namespace ThinkGeo.MapSuite.DebugSamples
             //
             this.btnPanLeft.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnPanLeft.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnPanLeft.Image = global::ThinkGeo.MapSuite.DebugSamples.Properties.Resources.West;
+            this.btnPanLeft.Image = global::CSHowDoISamples.Properties.Resources.West;
             this.btnPanLeft.Location = new System.Drawing.Point(13, 48);
             this.btnPanLeft.Name = "btnPanLeft";
             this.btnPanLeft.Size = new System.Drawing.Size(22, 22);
