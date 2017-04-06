@@ -1,0 +1,2 @@
+# HowDoISample-ForWinForms
+The “How Do I?” samples collection is a comprehensive set containing dozens of interactive samples. Available in both C# and VB.NET, these samples are designed to hit all the highlights of Map Suite, from simply adding a layer to a map to performing spatial queries and applying a thematic style. Consider this collection your “encyclopedia” of all the Map Suite basics and a great starting place for new users.
