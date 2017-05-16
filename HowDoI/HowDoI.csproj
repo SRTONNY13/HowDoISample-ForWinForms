@@ -792,6 +792,21 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Content Include="Data\Austinstreets.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\China.png" />
+    <Content Include="Data\JORWD6gdb.mdb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Semi Truck.png" />
+    <Content Include="Data\Sheboygan_CityLimits.sdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\Truck.gif" />
+    <Content Include="Data\United States.png" />
+    <Content Include="Data\Unknown.bmp" />
+    <Content Include="Data\World.tif" />
     <Content Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -853,6 +868,61 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Data\Austinstreets.dbf" />
+    <None Include="Data\Austinstreets.ids" />
+    <None Include="Data\Austinstreets.idx" />
+    <None Include="Data\Austinstreets.shp" />
+    <None Include="Data\Austinstreets.shx" />
+    <None Include="Data\cities_e.dbf" />
+    <None Include="Data\cities_e.ids" />
+    <None Include="Data\cities_e.idx" />
+    <None Include="Data\cities_e.shp" />
+    <None Include="Data\cities_e.shx" />
+    <None Include="Data\Countries02.dbf" />
+    <None Include="Data\Countries02.ids" />
+    <None Include="Data\Countries02.idx" />
+    <None Include="Data\Countries02.shp" />
+    <None Include="Data\Countries02.shx" />
+    <None Include="Data\Countries02_2163.ids" />
+    <None Include="Data\Countries02_2163.idx" />
+    <None Include="Data\HoustonMuniBdySamp_Boundary.DAT" />
+    <None Include="Data\HoustonMuniBdySamp_Boundary.ID" />
+    <None Include="Data\HoustonMuniBdySamp_Boundary.ids" />
+    <None Include="Data\HoustonMuniBdySamp_Boundary.idx" />
+    <None Include="Data\HoustonMuniBdySamp_Boundary.IND" />
+    <None Include="Data\HoustonMuniBdySamp_Boundary.MAP" />
+    <None Include="Data\HoustonMuniBdySamp_Boundary.TAB" />
+    <None Include="Data\MajorCities.dbf" />
+    <None Include="Data\MajorCities.ids" />
+    <None Include="Data\MajorCities.idx" />
+    <None Include="Data\MajorCities.shp" />
+    <None Include="Data\MajorCities.shx" />
+    <None Include="Data\PhValues.grd" />
+    <None Include="Data\sample_ph.dbf" />
+    <None Include="Data\sample_ph.shp" />
+    <None Include="Data\sample_ph.shx" />
+    <None Include="Data\USStates.dbf" />
+    <None Include="Data\USStates.ids" />
+    <None Include="Data\USStates.idx" />
+    <None Include="Data\USStates.shp" />
+    <None Include="Data\USStates.shx" />
+    <None Include="Data\UtahWater.dbf" />
+    <None Include="Data\UtahWater.ids" />
+    <None Include="Data\UtahWater.idx" />
+    <None Include="Data\UtahWater.shp" />
+    <None Include="Data\UtahWater.shx" />
+    <None Include="Data\UtmUSStates.ids" />
+    <None Include="Data\UtmUSStates.idx" />
+    <None Include="Data\World.ecw" />
+    <None Include="Data\World.eww" />
+    <None Include="Data\World.sdw" />
+    <None Include="Data\World.sid" />
+    <None Include="Data\World.tfw" />
+    <None Include="Data\WorldCapitals.dbf" />
+    <None Include="Data\WorldCapitals.ids" />
+    <None Include="Data\WorldCapitals.idx" />
+    <None Include="Data\WorldCapitals.shp" />
+    <None Include="Data\WorldCapitals.shx" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

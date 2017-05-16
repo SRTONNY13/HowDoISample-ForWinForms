@@ -15,7 +15,7 @@ namespace CSHowDoISamples
             VisualBasic
         }
 
-        public static readonly string RootDirectory = @"\\192.168.0.3\Employee Share\Howard\ThinkGeo Resources\Desktop\SampleData\HowDoI\";
+        public static readonly string RootDirectory = @"..\";
 
         private readonly string mainFolder = ((new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory)).Parent).FullName + "\\";
         private const string preStart = "<body oncontextmenu='return false;'><div class='divbody'><pre name='code' class='c-sharp:nocontrols'>";
