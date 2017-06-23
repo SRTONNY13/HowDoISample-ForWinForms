@@ -63,7 +63,7 @@ namespace CSHowDoISamples
 
         private void zedGraphStyle_ZedGraphDrawing(object sender, ZedGraphDrawingEventArgs e)
         {
-            e.GeoImage = (GeoImage)this.Invoke(new ToUIThreadDelegate(ZedGraphDrawing), new object[] { e });
+            e.GeoImage = new GeoImage(this.Invoke(new ToUIThreadDelegate(ZedGraphDrawing), new object[] { e })); 
         }
 
         private Bitmap ZedGraphDrawing(ZedGraphDrawingEventArgs e)
